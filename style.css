@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #000;
+}
+
+header h1 {
+    color: #e50914;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    padding: 100px 40px;
+    background: #333;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+button {
+    background: #e50914;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+.movies {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.movie {
+    min-width: 200px;
+}
+
+.movie img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
